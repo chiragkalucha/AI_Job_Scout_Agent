@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ai-job-scout:
+    build: .
+    container_name: ai_job_scout
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    environment:
+      - DISPLAY=:99
+    restart: unless-stopped
+    stdin_open: true
+    tty: true

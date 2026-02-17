@@ -1,0 +1,6 @@
+PyQt5==5.15.9
+APScheduler==3.10.4
+python-dotenv==1.0.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.0
+pyinstaller==6.3.0
